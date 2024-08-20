@@ -28,7 +28,7 @@ function Searchgame() {
   
   };
   const clear = () => {
-    setSearchText(null);
+    setSearchText('');
     setText('');
   };
   return (

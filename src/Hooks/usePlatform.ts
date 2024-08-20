@@ -1,4 +1,4 @@
-import usePlatforms from './usePlatforms';
+import usePlatforms from '../Interfaces/Platform';
 
 const usePlatform = (id?: number) => {
   const { data: platforms } = usePlatforms();
